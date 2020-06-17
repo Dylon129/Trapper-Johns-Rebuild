@@ -1,0 +1,50 @@
+/*==================================================
+	Sitewide Styles
+==================================================*/
+/*select all things - seriously use this one very wisely*/
+*{
+    /*Change background color*/
+    background-color: #f5f5f5;
+    
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+/*==================================================
+	Upper Section Of Home Page
+==================================================*/
+/* Upper navigation Bar/ Logo */
+
+.Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Top-Navigation li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 32px;
+    background-color: #f5f5f5;
+    padding: 15px 70px;
+    
+}
+
+.Top-Navigation a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Hover function */
+.Top-Navigation a:hover {
+    color: #e0c1c1;
+    transition: 0.4s; 
+
+}
+
